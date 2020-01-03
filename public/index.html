@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <!-- <link rel="icon" type="image/png" sizes="16x16" href="favicon.png"> -->
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x321.png">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <link href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <title>projecton</title>
+</head>
+
+<body>
+        <div class="div-top">
+            <div class="center-stuff">
+                <p id="first-line">Available Budget in</p>
+                <p class="budget" id="budget">- 0</p>
+
+                <div class="income-div">
+                    <div class="income-word">income</div>
+                    <div class="income-num">+ 0</div>
+                </div>
+                <br>
+                <div class="expence-div">
+                    <div class="expence-word">expence</div>
+                    <div class="expence-num">- 0</div>
+                    <div class="expence-precentage">0%</div>
+                </div>
+            </div>
+        </div>
+
+    <div class="div-center">
+        <div class="div-center-inside">
+            <select id="select_id">
+                <option value="plus">+</option>
+                <option value="minus">-</option>
+            </select>
+            <input type="text" id="description" placeholder="add description" size="45">
+            <input type="number" id="amount" placeholder="amount">
+            
+            <i onclick="click_on_v()" id="id_icon" class='far fa-check-circle' style='font-size:24px'></i>
+        </div>
+        
+    </div>
+
+    <div class="div-bottom">
+        <div id="div-bottom-income">INCOMES </div>
+
+        <div id="div-bottom-expence">EXPENCES</div>              
+    </div>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

@@ -1,0 +1,216 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    font-family: "Lato", self-serig;
+}
+
+#first-line,
+.budget {
+    color: white;
+    font-size: 180%;
+    text-align: center;
+}
+
+.budget {
+    font-size: 300%;
+    position: relative;
+    top: 15px;
+}
+
+.div-top {
+    width: 100%;
+    height: 290px;
+    background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url(img-js.jpg);
+    background-size: cover;
+}
+
+.center-stuff {
+    position: absolute;
+    top: 4%;
+    left: 30%;
+}
+
+#select_id {
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.income-div {
+    display: inline-block;
+    background-color: #28B9B5;
+    padding: 10px 120px;
+    position: relative;
+    /* bottom: 10px; */
+    height: 18px;
+    width: 30%;
+    top: 50px;
+    left: 10%;
+}
+
+.income-num,
+.income-word {
+    display: inline-block;
+}
+
+.expence-div {
+    display: inline-block;
+    background-color: #FF5049;
+    padding: 10px 120px;
+    position: relative;
+    /* bottom: 10px;
+    height: 18px; */
+    width: 30%;
+    top: 70px;
+    left: 10%;
+}
+
+.expence-word,
+.expence-num,
+.expence-precentage {
+    display: inline-block;
+}
+
+.income-word,
+.expence-word {
+    position: relative;
+    left: -39%;
+    color: #444;
+}
+
+.income-num,
+.expence-num {
+    position: relative;
+    left: 25%;
+    color: #444;
+}
+
+.expence-precentage {
+    position: relative;
+    left: 90%;
+    background-color: rgb(255, 176, 176);
+    width: 35px;
+    font-size: 80%;
+    text-align: center;
+}
+
+.div-center { 
+    text-align: center;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(241, 241, 241);
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.div-bottom {
+    width: 100%;
+    height: 245px;
+    float: left;
+}
+
+#div-bottom-income {
+    float: left;
+    width: 35%;
+    position: relative;
+    left: 12%;
+    top: 5%;
+    font-size: 120%;
+}
+#div-bottom-income p,
+#div-bottom-expence p {
+    color: black;
+    font-size: 100%;
+}
+
+#div-bottom-expence {
+    float: left;
+    width: 35%;
+    position: relative;
+    left: 18%;
+    top: 5%;
+    font-size: 120%;
+}
+
+#amount {
+    width: 65px;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+#description{
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.div-center-inside {
+    position: relative;
+    top: 10px;
+}
+
+#id_icon {
+    position: relative;
+    top: 6px;
+    left: 4px;
+    color: #28B9B5;
+}
+
+#div-bottom-income {
+    color: #28B9B5; 
+}
+#div-bottom-expence {
+    color: #FF5049;
+}
+
+.span-income-description {
+    position: relative;
+    left: 1%;
+}
+
+.span-income-amount {
+    position: absolute;
+    left: 77%;
+}
+
+
+#div-bottom-income p:nth-child(even),
+#div-bottom-expence p:nth-child(even) {
+    background-color: #e7e7e7;
+
+}
+.expence-p {
+    width: 450px; 
+    position: relative;
+    border-bottom: solid 1px #e7e7e7;
+    padding-bottom: 8px;
+}
+
+.income-p {
+    border-bottom: solid 1px #e7e7e7;
+    padding-bottom: 8px;
+}
+
+
+a.fa.fa-close {
+    left: 86px;
+    top: 7px;
+    position: absolute;
+    text-decoration: none;
+    color: black;
+    font-size: 79%;
+}
+
+.small-precentage {
+    width: 35px;
+    height: 20px;
+    position: relative;
+    left: 34px;
+    top: -18px;
+    bottom: 20px;
+    font-size: 65%;
+    background-color: rgb(255, 176, 176);
+    text-align: center;
+}
